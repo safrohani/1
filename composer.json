@@ -2,12 +2,26 @@
   "name": "odoorbell/htmleditor",
   "description": "Make your forum support HTML editing and rendering.",
   "type": "flarum-extension",
+  "version": "v0.0.1",
+  "license": "MIT",
   "require": {
     "flarum/core": "^1.0"
   },
   "autoload": {
     "psr-4": {"odoorbell\\htmleditor\\": "src/"}
   },
+      "authors": [
+        {
+            "name": "Xiaoxiaobai5724",
+            "email": "odoorbell@163.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/odoorbell/htmleditor/issues",
+        "source": "https://github.com/odoorbell/htmleditor",
+        "forum": "https://discuss.flarum.org/u/xiaoxiaobai5724"
+    },
   "extra": {
     "flarum-extension": {
       "title": "HTML Editor",
